@@ -1,0 +1,229 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#page-header {
+    display: flex;
+    flex-direction: row;
+    background-color: #7952b3;
+    padding: 6px 0px 6px 0;
+    width: 100%;
+}
+
+#nav-img {
+    width: 32px;
+    height: 32px;
+    margin: 10px 5px 10px 15px;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-left;
+    font-size: 115%;
+    font-weight: 200;
+}
+
+#nav-bar a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    padding: 10px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#icons {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-end;
+}
+
+.icon {
+    margin: 10px;
+}
+
+#download-btn {
+    height: 70%;
+    width: 37%;
+    border-color: white;
+    background-color: #7952b3;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    margin: 0px 10px 0px 10px;
+}
+
+#main-doc {
+    display: grid;
+    padding-bottom: 2.5rem;
+    transition: 0.8s;
+}
+
+#catalog {
+    padding: 0px 15px 8px 15px;
+    position: fixed;
+    height: 80%;
+}
+
+#catalog-heading {
+    font-weight: 500;
+}
+
+#catalog a {
+    text-decoration: none;
+}
+
+#catalog ul li {
+    list-style-type: none;
+    padding: 3px 0px 3px 0px;
+    text-indent: -30px;
+}
+
+#content {
+    padding: 0% 3% 0% 3%;
+    margin-left: 210px;
+    margin-right: 210px;
+    width: 70%;
+}
+
+.main-section {
+    margin: 0 0 3% 0;
+}
+
+#content-1 .intro {
+    font-size: 260%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#content-1 .intro-description {
+    margin: 0;
+    font-size: 170%;
+    font-weight: 100;
+}
+
+.content-heading {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.content-description {
+    margin: 1% 0 0 0;
+    font-size: 120%;
+    font-weight: 350;
+}
+
+.tags {
+    font-family: monospace;
+    color: red;
+}
+
+.code {
+    background-color: rgb(238, 235, 235);
+    margin: 1%;
+    padding: 20px 20px 8px 20px;
+    overflow: auto;
+    white-space: nowrap;
+    width: 750px;
+    font-family: monospace;
+}
+
+.main-section a {
+    font-size: 98%;
+    color: rgb(19, 19, 251);
+}
+
+.sub-section-1 {
+    font-size: 180%;
+}
+
+.sub-section-2 {
+    font-size: 160%;
+}
+
+.code p {
+    line-height: 10px;
+}
+
+footer {
+    padding: 100px 0px 100px 0%;
+    background-color: rgb(248, 247, 247);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.761);
+}
+
+#footer-description {
+    padding: 0 20% 0 25%;
+    font-size: 95%;
+}
+
+#company-details {
+    display: flex;
+    flex-direction: row;
+    font-size: 170%;
+    align-items: center;
+    justify-items: left;
+}
+
+#company-details img {
+    margin: 0 10px 0 0px;
+}
+
+#company-details p {
+    margin: 0;
+}
+
+#company-description {
+    line-height: 1.6;
+}
+
+#company-links {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 10% 0 10%;
+    font-size: 20px;
+}
+
+#company-links a {
+    text-decoration: none;
+}
+
+#company-links a:hover {
+    text-decoration: underline;
+    color: rgb(19, 19, 251);
+}
+
+.footer-sub-heading {
+    font-weight: 600;
+    margin: 0;
+    font-size: 110%;
+    color: black;
+}
+
+.footer-links {
+    margin: 8px 0 8px 0;
+    font-weight: 350;
+    font-size: 90%;
+}
